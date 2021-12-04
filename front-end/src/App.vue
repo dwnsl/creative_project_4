@@ -16,7 +16,7 @@
     <router-view />
   </div>
   <div class="footer">
-    <a href="https://www.w3schools.com/">github</a>
+    <a href="https://github.com/dwnsl/creative-project4">github</a>
   </div>
   
 </div>
