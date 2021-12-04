@@ -3,19 +3,22 @@
   <div class="header">
     <router-link to="/">
       <div class="logo">
-        <img src="/ordinary.png">
+        <img src="/jumpman.jpeg">
       </div>
     </router-link>
     <div class="title">
-      <h1>Museum of Ordinary dan</h1>
+      <h1>Air Jordans</h1>
+      <router-link to="/editShoes">EDIT SHOES</router-link>
     </div>
+  
   </div>
   <div class="content">
     <router-view />
   </div>
   <div class="footer">
-    <router-link to="/admin">Admin</router-link>
+    <a href="https://www.w3schools.com/">github</a>
   </div>
+  
 </div>
 </template>
 
@@ -36,8 +39,8 @@ body {
 .header {
   display: flex;
   padding: 10px 100px 0px 100px;
-  background-color: #5BDEFF;
-  color: #1C454F;
+  background-color: #000000;
+  color: #FFFFFF;
 }
 
 .title {
@@ -73,3 +76,5 @@ h2 {
   font-size: 14px;
 }
 </style>
+
+
